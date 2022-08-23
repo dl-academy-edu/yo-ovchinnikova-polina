@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toys</title>
 </head>
 <body>
     <header class="header">
@@ -14,10 +14,10 @@
           <nav>
               <ul>
                   <li>
-                      <a href=".//pages/blog.html">Blog</a>
+                      <a href="..//pages/blog.html">Blog</a>
                   </li>
                   <li>
-                      <a href=".//pages/catalog.html">Catalog</a>
+                      <a href="..//pages/catalog.html">Catalog</a>
                   </li>
                   <li>
                       <a href="#">About Us</a>
@@ -31,9 +31,80 @@
       </header>
       <section>
         <h1>Toy for kids</h1>
-
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <img src="../pic/icons/Vectorr.svg" alt="vector">
+            </li>
+            <li>
+                <a href="#">Catalog</a>
+            </li>
+            <li>
+                <img src="../pic/icons/Vectorr.svg" alt="vector">
+            </li>
+            <li>
+                <a href="#">Toys</a>
+            </li>
       </section>
       <section>
+        <form action="#">
+            <div>
+                <label for="iput-cost">Cost</label>
+                <input type="range" name="cost" id="iput-cost" min="0" max="500">
+            </div>
+            <fieldset>
+                <legend>Color</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="" id="input-black">
+                        <label for="input-black">Black</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="input-blue">
+                        <label for="input-blue">Blue</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="input-green">
+                        <label for="input-green">Green</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id="input-white">
+                        <label for="input-white">White</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="dilevery" id="input-free">
+                        <label for="input-free">Free shipping</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="dilevery" id="input-fast">
+                        <label for="input-fast">Fast shipping</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Amount</legend>
+                <ul>
+                    <li>
+                        <button type="button">0-5</button>
+                    </li>
+                    <li>
+                        <button type="button">10-20</button>
+                    </li>
+                    <li>
+                        <button type="button">20-50</button>
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="button">Apply</button>
+        </form>
+            
 
       </section>
       <section>
@@ -71,12 +142,32 @@
         </ul>
       </section>
       <section>
-        <button type="button">
-            <img src="../pic/icons/Vectorl.svg" alt="left">
-        </button>
-        <button type="button">
-            <img src="../pic/icons/Vectorr.svg" alt="right">
-        </button>
+        <nav aria-label="страницы">
+            <ul class="pagination">
+                <li>
+                    <a href="#" class="button">
+                        <img src="../pic/icons/Vectorleft.svg" alt="vector">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+                <li>
+                    <a href="#" class="button">
+                        <img src="../pic/icons/Vectorright.svg" alt="vector">
+                    </a>
+                </li>
+            </ul>
+        </nav>
         
       </section>
 
@@ -137,20 +228,20 @@
             <li>
                 <form action="#">
                     <input type="email" name="email" id="#">
-                    <input type="submit" name="#" id="#">
-                   </form>
+                    <button type="button">Join</button>
+                </form>
             </li>
             <li>
-                <img src="./pic/icons/f.svg" alt="facebook">
+                <img src="../pic/icons/f.svg" alt="facebook">
             </li>
             <li>
-                <img src="./pic/icons/Fill 11.svg" alt="twitter">
+                <img src="../pic/icons/Fill 11.svg" alt="twitter">
             </li>
             <li>
-                <img src="./pic/icons/Pinterest.svg" alt="pinterest">
+                <img src="../pic/icons/Pinterest.svg" alt="pinterest">
             </li>
             <li>
-                <img src="#" alt="instagram">
+                <img src="../pic/icons/Instagram.svg" alt="instagram">
             </li>
             <li>Web Design — Direct Line Development</li>
         </ul>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog</title>
 </head>
 <body>
     <header class="header">
@@ -31,7 +31,16 @@
       </header>
       <section>
         <h1>Blog</h1>
-
+        <ul class="breadcrumb">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <img src="../pic/icons/Vectorr.svg" alt="vector">
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
       </section>
       <section>
         <ul>
@@ -73,14 +82,32 @@
             </li>
         </ul>
       </section>
-      <section>
-        <button type="button">
-            <img src="../pic/icons/Vectorl.svg" alt="left">
-        </button>
-        <button type="button">
-            <img src="../pic/icons/Vectorr.svg" alt="right">
-        </button>
-      </section>
+      <nav aria-label="страницы">
+        <ul class="pagination">
+            <li>
+                <a href="#" class="button">
+                    <img src="../pic/icons/Vectorleft.svg" alt="vector">
+                </a>
+            </li>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#" class="button">
+                    <img src="../pic/icons/Vectorright.svg" alt="vector">
+                </a>
+            </li>
+        </ul>
+    </nav>
 
       <footer>
         <ul>
@@ -139,8 +166,8 @@
             <li>
                 <form action="#">
                     <input type="email" name="email" id="#">
-                    <input type="submit" name="#" id="#">
-                   </form>
+                    <button type="button">Join</button>
+                </form>
             </li>
             <li>
                 <img src="../pic/icons/f.svg" alt="facebook">
@@ -152,7 +179,7 @@
                 <img src="../pic/icons/Pinterest.svg" alt="pinterest">
             </li>
             <li>
-                <img src="#" alt="instagram">
+                <img src="../pic/icons/Instagram.svg" alt="instagram">
             </li>
             <li>Web Design — Direct Line Development</li>
         </ul>

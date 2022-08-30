@@ -54,10 +54,7 @@ body {
 
 .slider {
     position: relative;
-    width: 1180px;
-    height: 411px;
     display: block;
-    margin: 142px 110px 90px 110px;
     padding: 89px 0px 0px 0px;
 }
 
@@ -66,9 +63,7 @@ body {
     /* left: 138px; */
 }
 
-.span {
-    /* width: 61px; */
-    /* height: 74px; */
+.slider__menu_item {
     /* left: 138px; */
     /* margin-left: ; */
     /* top: 248px; */
@@ -78,30 +73,24 @@ body {
 }
 
 .slider__switch {
-    top: 332px;
-    left: 141px;
-    width: 31px;
-    height: 45px;
+    /* top: 332px; */
+    /* left: 141px; */
     list-style-type: none;
 }
 
 .slider__switch_item {
-    width: 31px;
-    height: 3px;
-    left: 141px;
-    /* top: 332px; */
     margin-bottom: 11px;
     background: #D6CAC2;
 }
 
 .image__monster {
-    /* margin: 56px 209.51px 129px 555px; */
+    /* margin: 89px 99px 39px 445px; */
     top: 142px;
     position: absolute;
-    width: 635.49px;
+    width: 636px;
     height: 461px;
     left: 555px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     /* margin-right: 99.51px; */
     /* margin-bottom: 39px; */
 }
@@ -111,9 +100,8 @@ body {
 
 
 .button {
-    top: 474px;
-    left: 243px;
-    margin-left: 133px;
+    /* top: 474px; */
+    /* left: 243px; */
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
@@ -126,20 +114,20 @@ body {
 
 
 .category {
-    width: 1180px;
-    height: 421px;
+    /* width: 1180px; */
+    /* height: 421px; */
     /* left: 110px; */
     /* top: 732px; */
-    margin: 90px 110px;
+    /* margin: 90px 110px; */
     /* display: flex; */
 }
 
 .category__menu {
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
     /* padding: 30px 110px; */
-    bottom: 20px;
+    /* bottom: 20px; */
     list-style-type: none;
 }
 
@@ -150,8 +138,7 @@ body {
 }
 
 .category__menu_kids {
-    width: 280px;
-    height: 270px;
+    /* width: 280px; */
     /* background: #DBE4DB; */
 }
 

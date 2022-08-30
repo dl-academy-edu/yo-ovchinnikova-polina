@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/common.css">
     <link href="https://fonts.google.com/specimen/Open+Sans?query=open+" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.google.com">
 </head>
@@ -28,46 +29,58 @@
                 </li>
             </ul>
         </nav>
-          <a href="#" class="button"> 
+          <a href="#" class="button_search"> 
             <img src="./pic/icons/lupa.svg" alt="lupa"> 
           </a>
           <a class="contact__us" href="./pages/contact.html">Contact  Us</a>
     </header>
     
     <main>
-        <section>
-            <span>01</span>
-            <li><button>#</button></li>
-            <li><button>#</button></li>
-            <li><button>#</button></li>
-            <li><button>#</button></li>
-            <h1>THE OOH NOO COLLECTION</h1>
-            <p>Designed in Slovenia</p>
-            <button type="button">EXPLORE NOW</button>
-            <img src="./pic/images/imagemonster.png" alt="image">
-            <p>Free (continental) USA shipping on all orders of $100 USD or more!</p>
-        </section>
+        <div class="titel">
+            <div class="slider">
+                <div class="slider__menu">
+                    <span class="span">01</span>
+                    <ul class="slider__switch">
+                        <li class="slider__switch_item"><button>#</button></li>
+                        <li class="slider__switch_item"><button>#</button></li>
+                        <li class="slider__switch_item"><button>#</button></li>
+                        <li class="slider__switch_item"><button>#</button></li>
+                    </ul>
+                </div>
+                <div class="slide__text">
+                    <h1 class="slide__text_name">THE OOH NOO COLLECTION</h1>
+                    <p class="slide__text_paragraph">Designed in Slovenia</p>
+                    <button class="button" type="button">EXPLORE NOW</button>
+                </div>
+                <div class="slide__info">
+                    <img class="image__monster" src="./pic/images/imagemonster.png" alt="image">
+                    <p class="paragraph__item">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+                </div>
+            </div>
+        </div>
 
-        <section>
+    <div class="category">
             <h2>Category Products</h2>
-            <ul>
-                <li>
-                    <img src="./pic/images/imagesweater.png" alt="image">
+        <div class="category__menu">
+            <ul class="menu__list">
+                <li class="category__menu_kids">
+                    <img class="img_kids" src="./pic/images/imagesweater.png" alt="image">
                     <a href="#">APPAREL KIDS</a>
                 </li>
-                <li>
+                <li class="category__menu_shop">
                     <img src="./pic/images/imagesock.png" alt="image">
                     <a href="#">HOLIDAY SHOP</a>
                 </li>
-                <li>
+                <li class="category__menu_toys">
                     <img src="./pic/images/imagedeer.png" alt="image">
                     <a href="./pages/toys.html">TOYS</a>
                 </li>
-                <li>
+                <li class="category__menu_accessories">
                     <img src="./pic/images/imagemonkey.png" alt="image">
                     <a href="#">ACCESSORIES</a>
                 </li>
             </ul>
+        </div>
             <div class="wrap">
                 <a href="#">
                     <img src="./pic/icons/Vectorleft.svg" alt="Vectorleft">
@@ -79,8 +92,8 @@
                 <button><img src="./pic/icons/Vectorright.svg" alt="Vectorright"></button>
             </div>
             <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
-        </section>
-        <section>
+    </div>
+        <section class="delivery">
             <img src="./pic/images/imagewomen.jpg" alt="image">
             <h2>Delivery</h2>
             <ul>
@@ -92,7 +105,7 @@
             <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
             <button>LEARN MORE</button>
         </section>
-        <section>
+        <section class="adv">
             <ul>
                 <li>
                     <img src="./pic/icons/mail.svg" alt="logo">
@@ -119,38 +132,42 @@
             <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <img src="./pic/images/imagemap.png" alt="maps">
         </section>
-        <footer>
-            <ul>
-                <li>Navigation</li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Design Services</a>
-                </li>
-                <li>
-                    <a href="#">Featured On</a>
-                </li>
-                <li>
-                    <a href="#">2018 Holiday Catalog</a>
-                </li>
-                <li>
-                    <a href="#">Shop By Designer</a>
-                </li>
-                <li>Company Rating</li>
-            <div class="rating-area">
-                <input type="radio" name="rating" id="star-5" value="отлично">
-                <input type="radio" name="rating" id="star-4" value="хорошо">
-                <input type="radio" name="rating" id="star-3" value="удовлетворительно">
-                <input type="radio" name="rating" id="star-2" value="плохо">
-                <input type="radio" name="rating" id="star-1" value="ужасно">
-            </div>
+        <footer class="footer">
+            <section class="footer__group">
+                <div class="group__nav">
+                    <p class="group__nav_name">Navigation</p>
+                    <ul>
+                        <li class="group__nav_list">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="group__nav_list">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="group__nav_list">
+                            <a href="#">Design Services</a>
+                        </li>
+                        <li class="group__nav_list">
+                            <a href="#">Featured On</a>
+                        </li>
+                        <li class="group__nav_list">
+                            <a href="#">2018 Holiday Catalog</a>
+                        </li>
+                        <li class="group__nav_list">
+                            <a href="#">Shop By Designer</a>
+                        </li>
+                        <li>Company Rating</li>
+                    </ul>
+                        <div class="rating-area">
+                            <input type="radio" name="rating" id="star-5" value="отлично">
+                            <input type="radio" name="rating" id="star-4" value="хорошо">
+                            <input type="radio" name="rating" id="star-3" value="удовлетворительно">
+                            <input type="radio" name="rating" id="star-2" value="плохо">
+                            <input type="radio" name="rating" id="star-1" value="ужасно">
+                        </div>
+                </div>
             </ul>
-            <ul>
-                <li>Customer Information</li>
+            <ul class="group__info">
+                <p>Customer Information</p>
                 <li>
                     <a href="#">Contact Us</a>
                 </li>
@@ -171,7 +188,7 @@
                 </li>
                 <li>Copyright © 2018 Dlk • Design Life Kids</li>
             </ul>
-            <ul>
+            <ul class="group__connect">
                 <li>Connect</li>
                 <li>
                     <form action="#">
@@ -193,6 +210,7 @@
                 </li>
                 <li>Web Design — Direct Line Development</li>
             </ul>
+            </section>
         </footer>
     </main>
 </body>

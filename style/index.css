@@ -457,6 +457,7 @@ display: flex;
     position: relative;
     width: 543px;
     height: 228px;
+    padding-bottom: 27px;
 }
 
 .block__name_item {

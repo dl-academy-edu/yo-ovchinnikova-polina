@@ -1,0 +1,225 @@
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.header__wraper {
+display: flex;
+}
+
+.nav {
+   padding-left: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__list_item {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Open Sans';
+}
+
+.nav__list_link {
+    text-decoration: none;
+    list-style-type: none;
+    color: #1E0606;
+    font-family: 'Open Sans';
+}
+
+.button_search {
+    padding-left: 678px;
+    padding-right: 23px;
+}
+
+.contact__us {
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans';
+    /* font-style: normal; */
+    font-weight: 700;
+    color: #1E0606;
+
+}
+
+
+.category_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+
+.breadcrumb__list {
+    display: flex;
+    text-decoration: none;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.breadcrumb__list_item {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.breadcrumb__link_home {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumb_vector{
+    width: 8px;
+    height: 12px;
+    /* background: #1E0606; */
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.breadcrumb__link_catalog {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;  
+    color: #1E0606;
+    opacity: 0.5;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu__list_catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category__catalog:nth-child(4) {
+    padding-bottom: 23px;
+    padding-left: 210px;
+    padding-top: 23px;
+}
+
+tr:nth-child(4) {
+}
+
+.img__accessories_catalog {
+    background: #D5D4E1;
+}
+
+.img_adults {
+    background: #E5EAF8;
+}
+
+.link_sale {
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 105px;
+}
+
+.link_adults {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    word-wrap: break-word;
+    width: 155px;
+    padding-left: 62px;
+}
+
+.product {
+    /* margin-top: 55px; */
+    padding-top: 55px;
+    margin-left: 310px;
+}
+
+.product__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1E0606;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.product__paragraph_one {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-bottom: 15px;
+    width: 680px;
+    word-wrap: break-word;
+}
+
+.product__paragraph_two {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-bottom: 15px;
+    word-wrap: break-word;
+    width: 680px;
+}
+
+.product__paragraph_three {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    word-wrap: break-word;
+    width: 680px;
+}

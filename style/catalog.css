@@ -101,6 +101,7 @@ display: flex;
 .breadcrumb_vector{
     width: 8px;
     height: 12px;
+    padding-top: 7px;
     /* background: #1E0606; */
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }

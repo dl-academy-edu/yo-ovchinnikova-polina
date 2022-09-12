@@ -1,0 +1,140 @@
+.breadcrumb__link_item {
+    color: #1E0606;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.filter {
+    background: rgba(125, 151, 218, 0.2);
+}
+
+.filter__menu {
+    margin-bottom: 60px;
+}
+
+
+.color {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.color__check_list {
+    border: none;
+}
+
+
+
+.produce {
+    /* padding-top: 60px; */
+}
+
+.produce__menu_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produce__menu_item {
+    /* padding-right: 20px; */
+    text-decoration: none;
+    list-style-type: none;
+    /* position: relative; */
+}
+
+.img_produce {
+    /* position: absolute; */
+    padding-bottom: 30px;
+}
+
+.produce__paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #1E0606;
+    padding-bottom: 15px;
+}
+
+.produce_price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+    padding-bottom: 25px;
+}
+
+.pagination__nav {
+    display: flex;
+    padding-top: 53px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.pagination__list {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 457px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination__list_item {
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 67px;
+}
+
+.page_number_one {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #C29974;
+}
+
+.page_number {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.vector__pag_left {
+    border: none;
+    background: none;
+    width: 13px;
+    height: 26px;
+}
+
+.vector__pag_right {
+    border: none;
+    background: none;
+    width: 13px;
+    height: 26px;
+    padding-left: 390px;
+}

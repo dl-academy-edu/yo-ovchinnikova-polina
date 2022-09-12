@@ -702,6 +702,7 @@ background: #434343;
     line-height: 22px;
     color: #EBEBEB;
     padding-left: 15px;
+    border: none;
 }
 
 .button_join {
@@ -715,6 +716,8 @@ background: #434343;
     padding: 9px 22px;
     font-family: 'Open Sans';
     text-transform: uppercase;
+    width: 81px;
+    height: 40px;
 }
 
 .group__connect {
@@ -723,7 +726,7 @@ background: #434343;
     list-style-type: none;
     padding-bottom: 23px;
     border-bottom: 1px solid #666666;
-    padding-bottom: 149px;
+    padding-bottom: 153px;
     margin-bottom: 23px;
     
 }

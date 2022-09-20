@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/contact.css">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,16 +46,16 @@
                 <div class="slider__menu">
                     <span class="slider__menu_item">01</span>
                     <ul class="slider__switch">
-                        <li class="slider__switch_item"><button>#</button></li>
-                        <li class="slider__switch_item"><button>#</button></li>
-                        <li class="slider__switch_item"><button>#</button></li>
-                        <li class="slider__switch_item"><button>#</button></li>
+                        <li class="slider__list_item"><button class="slider__switch_item" type="button"></button></li>
+                        <li class="slider__list_item"><button class="slider__switch_item1" type="button"></button></li>
+                        <li class="slider__list_item"><button class="slider__switch_item1" type="button"></button></li>
+                        <li class="slider__list_item"><button class="slider__switch_item1" type="button"></button></li>
                     </ul>
                 </div>
                 <div class="slide__text">
                     <h1 class="slide__text_name">THE OOH NOO COLLECTION</h1>
                     <p class="slide__text_paragraph">Designed in Slovenia</p>
-                    <button class="button" type="button">EXPLORE NOW</button>
+                    <button class="button" type="button"> <a class="popup__item" href="#popup">EXPLORE NOW</a></button>
                 </div>
                     <img class="image__monster" src="./pic/images/imagemonster.png" alt="image">
             </div>
@@ -133,7 +134,7 @@
                 </div>
                 <div class="block__contacts">
                     <h2 class="block__name_item">Contacts</h2>
-                    <p class="block__name_outline">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                    <p class="block__name_outline1">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                     <img class="maps" src="./pic/images/imagemap.png" alt="maps">
                 </div>
             </div>
@@ -165,13 +166,15 @@
                     </ul>
                         <div class="rating">
                             <p class="rating__name">Company Rating</p> 
-                            <div class="star__rating">
-                                <input class="star__rating_item" type="radio" name="rating" id="star-5" value="отлично">
-                                <input class="star__rating_item" type="radio" name="rating" id="star-4" value="хорошо">
-                                <input class="star__rating_item" type="radio" name="rating" id="star-3" value="удовлетворительно">
-                                <input class="star__rating_item" type="radio" name="rating" id="star-2" value="плохо">
-                                <input class="star__rating_item" type="radio" name="rating" id="star-1" value="ужасно">
-                            </div>
+                            <fieldset class="star__rating">
+                                <div class="rating__group">
+                                    <input class="star__rating_item" type="radio" name="rating" id="star-5" aria-label="отлично">
+                                    <input class="star__rating_item" type="radio" name="rating" id="star-4" aria-label="хорошо">
+                                    <input class="star__rating_item" type="radio" name="rating" id="star-3" aria-label="удовлетворительно">
+                                    <input class="star__rating_item" type="radio" name="rating" id="star-2" aria-label="плохо">
+                                    <input class="star__rating_item" type="radio" name="rating" id="star-1" aria-label="ужасно">
+                                </div>
+                            </fieldset>
                         </div>
                 </div>
                 <div class="customer__group">
@@ -226,5 +229,39 @@
             </section>
         </footer>
     </main>
+    <div class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="" class="popup__close">
+                    <img class="popup__close_item" src="./pic/icons/XMLID1429.svg" alt="close">
+                </a>
+                <form class="form__area" action="#">
+                    <div class="name__area">
+                        <label class="name__item" for="input-name">Name</label>
+                        <input class="name__input" type="text" name="#" id="input-name" value="Ivan Ivanov">
+                    </div>
+                    <div class="contact__details">
+                        <div class="phone__area">
+                            <label class="name__item_contact" for="input-phone">Phone</label>
+                            <input class="phone__input" type="text" name="#" id="input-phone">
+                        </div>
+                        <div class="email__area">
+                            <label class="name__item_contact" for="input-email">Email</label>
+                            <input class="email__input" type="text" name="#" id="input-email">
+                        </div>
+                    </div>
+                    <div class="message__area">
+                        <label class="name__item" for="textarea">Message</label>
+                        <textarea class="message__block" name="" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="deal">
+                        <input class="check__deal" type="checkbox" name="checkbox" id="checkbox">
+                        <label class="deal__info" for="checkbox">By clicking on the button, you consent to the processing of your personal data</label>
+                        <button class="button__deal" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

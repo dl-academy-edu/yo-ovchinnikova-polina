@@ -86,7 +86,8 @@
                         </div>
                         <div class="deal">
                             <input class="check__deal" type="checkbox" name="checkbox" id="checkbox">
-                            <p class="deal__info">By clicking on the button, you consent to the processing of your personal data</p>
+                            <span class="custom__checkbox"></span>
+                            <label class="deal__info" for="checkbox">By clicking on the button, you consent to the processing of your personal data</label>
                             <button class="button__deal" type="submit">Submit</button>
                         </div>
                     </form>
@@ -124,16 +125,18 @@
                         <a class="nav__item_link" href="#">Shop By Designer</a>
                     </li>
                 </ul>
-                    <div class="rating">
-                        <p class="rating__name">Company Rating</p> 
-                        <div class="star__rating">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-5" value="отлично">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-4" value="хорошо">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-3" value="удовлетворительно">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-2" value="плохо">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-1" value="ужасно">
+                <div class="rating">
+                    <p class="rating__name">Company Rating</p> 
+                    <fieldset class="star__rating">
+                        <div class="rating__group">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-5" aria-label="отлично">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-4" aria-label="хорошо">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-3" aria-label="удовлетворительно">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-2" aria-label="плохо">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-1" aria-label="ужасно">
                         </div>
-                    </div>
+                    </fieldset>
+                </div>
             </div>
             <div class="customer__group">
                 <p class="customer">Customer Information</p>

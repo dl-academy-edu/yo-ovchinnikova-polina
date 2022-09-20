@@ -68,60 +68,70 @@
       <section class="filter">
         <div class="container">
             <div class="filter__menu">
-                <form action="#">
-                <div>
-                    <label for="iput-cost">Cost</label>
-                    <input type="range" name="cost" id="iput-cost" min="0" max="500">
-                </div>
-                <fieldset>
-                    <legend class="color">Color</legend>
+                <form class="filter__form" action="#">
+                <fieldset class="cost">
+                    <legend class="legend__name">Cost</legend>
+                    <label class="label__cost" for="iput-cost"></label>
+                    <input class="input__cost" type="range" name="cost" id="iput-cost" min="0" max="500">
+                </fieldset>
+                <fieldset class="color__filter">
+                    <legend class="legend__name">Color</legend>
                     <ul class="color__check_list">
                         <li class="color__check_item">
-                            <input type="checkbox" name="" id="input-black">
-                            <label for="input-black">Black</label>
+                            <input class="color__check" type="checkbox" name="" id="input-black">
+                            <span class="custom__checkbox"></span>
+                            <label class="label__color" for="input-black">Black</label>
                         </li>
                         <li class="color__check_item">
-                            <input type="checkbox" name="" id="input-blue">
-                            <label for="input-blue">Blue</label>
+                            <input class="color__check" type="checkbox" name="" id="input-blue">
+                            <span class="custom__checkbox"></span>
+                            <label class="label__color" for="input-blue">Blue</label>
                         </li>
                         <li class="color__check_item">
-                            <input type="checkbox" name="" id="input-green">
-                            <label for="input-green">Green</label>
+                            <input class="color__check" type="checkbox" name="" id="input-green">
+                            <span class="custom__checkbox"></span>
+                            <label class="label__color" for="input-green">Green</label>
                         </li>
                         <li class="color__check_item">
-                            <input type="checkbox" name="" id="input-white">
-                            <label for="input-white">White</label>
+                            <input class="color__check" type="checkbox" name="" id="input-white">
+                            <span class="custom__checkbox"></span>
+                            <label class="label__color" for="input-white">White</label>
                         </li>
                     </ul>
                 </fieldset>
-            <fieldset>
-                <legend>Delivery</legend>
-                <ul>
-                    <li>
-                        <input type="radio" name="dilevery" id="input-free">
-                        <label for="input-free">Free shipping</label>
+            <fieldset class="delivery__filter">
+                <legend class="legend__name">Delivery</legend>
+                <ul class="delivery__chek_list">
+                    <li class="delivery__chek_item">
+                        <input class="delivery__real_check" type="radio" name="delivery" id="input-free">
+                        <span class="delivery__custom_check"></span>
+                        <label class="delivery__item" for="input-free">Free shipping</label>
                     </li>
-                    <li>
-                        <input type="radio" name="dilevery" id="input-fast">
-                        <label for="input-fast">Fast shipping</label>
-                    </li>
-                </ul>
-            </fieldset>
-            <fieldset>
-                <legend>Amount</legend>
-                <ul>
-                    <li>
-                        <button type="button">0-5</button>
-                    </li>
-                    <li>
-                        <button type="button">10-20</button>
-                    </li>
-                    <li>
-                        <button type="button">20-50</button>
+                    <li class="delivery__chek_item">
+                        <input class="delivery__real_check" type="radio" name="delivery" id="input-fast">
+                        <span class="delivery__custom_check"></span>
+                        <label class="delivery__item" for="input-fast">Fast shipping</label>
                     </li>
                 </ul>
             </fieldset>
-            <button class="#" type="button">Apply</button>
+            <fieldset class="amount__filter">
+                <legend class="legend__name">Amount</legend>
+                <ul class="amount__check_list">
+                    <li class="amount__check_item">
+                        <input class="amount__input" checked type="radio" name="age" id="input-age">
+                        <label class="amount__item" for="input-age">0-5</label>
+                    </li>
+                    <li class="amount__check_item">
+                        <input class="amount__input" type="radio" name="age" id="input-age1">
+                        <label class="amount__item" for="input-age1">10-20</label>
+                    </li>
+                    <li class="amount__check_item">
+                        <input class="amount__input" type="radio" name="age" id="input-age2">
+                        <label class="amount__item" for="input-age2">20-50</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <button class="button_apply" type="button">Apply</button>
         </form>
         </div>
         </div>    
@@ -210,16 +220,18 @@
                         <a class="nav__item_link" href="#">Shop By Designer</a>
                     </li>
                 </ul>
-                    <div class="rating">
-                        <p class="rating__name">Company Rating</p> 
-                        <div class="star__rating">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-5" value="отлично">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-4" value="хорошо">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-3" value="удовлетворительно">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-2" value="плохо">
-                            <input class="star__rating_item" type="radio" name="rating" id="star-1" value="ужасно">
+                <div class="rating">
+                    <p class="rating__name">Company Rating</p> 
+                    <fieldset class="star__rating">
+                        <div class="rating__group">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-5" aria-label="отлично">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-4" aria-label="хорошо">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-3" aria-label="удовлетворительно">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-2" aria-label="плохо">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-1" aria-label="ужасно">
                         </div>
-                    </div>
+                    </fieldset>
+                </div>
             </div>
             <div class="customer__group">
                 <p class="customer">Customer Information</p>

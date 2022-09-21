@@ -130,25 +130,30 @@
     
 }
 
-
-
-.check__deal .deal__info::before {
+.custom__checkbox_deal {
     background-image: url(../pic/icons/Rectangle22.svg);
-    content: "";
+     content: "";
     width: 19px;
     height: 19px;
     cursor: pointer;
     display: inline-block;
     margin-right: 15px;
 }
-.check__deal:checked .deal__info::before {
+
+
+
+.custom__checkbox_deal::before {
     background-image: url(../pic/icons/Vectorcontact.svg);
-    width: 14px;
-    height: 14px;
-    padding-bottom: 1px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 3px;
 }
-
-
 
 
 .deal__info {
@@ -173,7 +178,12 @@
     padding: 9px 22px;
     font-family: 'Open Sans';
     text-transform: uppercase;
+    cursor: pointer;
     /* margin-left: 40px; */
+}
+
+.button__deal:active {
+    background: #6a6969;
 }
 
 

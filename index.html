@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="../style/toys.css">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +56,7 @@
                 <div class="slide__text">
                     <h1 class="slide__text_name">THE OOH NOO COLLECTION</h1>
                     <p class="slide__text_paragraph">Designed in Slovenia</p>
-                    <button class="button" type="button"> <a class="popup__item" href="#popup">EXPLORE NOW</a></button>
+                    <button class="button button-js" type="button">EXPLORE NOW</button>
                 </div>
                     <img class="image__monster" src="./pic/images/imagemonster.png" alt="image">
             </div>
@@ -232,9 +233,7 @@
     <div class="popup">
         <div class="popup__body">
             <div class="popup__content">
-                <a href="" class="popup__close">
-                    <img class="popup__close_item" src="./pic/icons/XMLID1429.svg" alt="close">
-                </a>
+                <button class="popup__close close-js"></button>
                 <form class="form__area" action="#">
                     <div class="name__area">
                         <label class="name__item" for="input-name">Name</label>
@@ -256,6 +255,7 @@
                     </div>
                     <div class="deal">
                         <input class="check__deal" type="checkbox" name="checkbox" id="checkbox">
+                        <span class="custom__checkbox_deal"></span>
                         <label class="deal__info" for="checkbox">By clicking on the button, you consent to the processing of your personal data</label>
                         <button class="button__deal" type="submit">Submit</button>
                     </div>
@@ -263,5 +263,6 @@
             </div>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>

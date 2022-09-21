@@ -37,10 +37,10 @@
 .input__cost {
     background: #000000;
     opacity: 0.5;
-    position: absolute;
     width: 188px;
     height: 4px;
     margin-top: 25px;
+    position: absolute;
 }
 
 
@@ -104,26 +104,17 @@
 
 .color__check_item:first-of-type .custom__checkbox{
     background: #FFFFFF;
-    /* width: 18px; */
-    /* height: 18px; */
-    /* background-image: url(../pic/icons/Vectorcontact.svg); */
-    /* display: inline-block; */
-    /* width: 16px; */
-    /* height: 16px; */
-    /* content: ''; */
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
-    /* position: absolute; */
-    /* margin-right: 10px; */
-    /* margin-left: 3px; */
 }
+
 
 .color__check_item:first-of-type .custom__checkbox {
     background-image: url(../pic/icons/Vectorcontact.svg);
-    /* width: 16px; */
-    /* height: 16px; */
-    /* display: inline-block; */
-    
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .label__color {
@@ -133,18 +124,9 @@
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
-    /* background-image: url(../pic/icons/Rectangle22.svg); */
-    /* width: 19px; */
-    /* height: 19px; */
-    /* position: absolute; */
-    /* margin-bottom: 15px; */
-    /* margin-left: 10px; */
-    /* margin-right: 10px; */
-    /* padding-left: 10px; */
 }
 
 .custom__checkbox {
-    /* background-image: url(../pic/icons/Rectangle22.svg); */
     content: "";
     width: 18px;
     height: 18px;
@@ -154,51 +136,8 @@
     border: 2px solid #C29974;
     border-radius: 3px;
     position: relative;
-    /* background: #FFFFFF; */
 }
 
-.color__check_list:first-child {
-     /* background: #FFFFFF; */
-}
-
-.custom__checkbox:before {
-    background-image: url(../pic/icons/Vectorcontact.svg);
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    content: '';
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin-top: 1px;
-    margin-left: 3px;
-    opacity: 0;
-    /* left: 416px; */
-    /* top: 382px; */
-}
-
-
-.color__check + .custom__checkbox::before {
-    /* background-image: url(../pic/icons/Rectangle22.svg); */
-    /* content: ""; */
-    /* width: 19px; */
-    /* height: 19px; */
-    /* display: inline-block; */
-    /* margin-right: 15px; */
-}
-
-.color__check:checked + .label__color::before {
-    /* background-image: url(../pic/icons/Vectorcontact.svg); */
-    /* width: 14px; */
-    /* height: 14px; */
-    /* padding-bottom: 1px; */
-    /* content: ""; */
-    /* display: block; */
-}
-
-.color__check_item:first-child {
-    /* background: #FFFFFF; */
-}
 
 .delivery__filter {
     border: none;
@@ -226,28 +165,7 @@
 }
 
 
-
-.delivery__chek_item::before .delivery__custom_check{
-    /* background-image: url(../pic/icons/Ellipse1.svg); */
-    background-image: url(../pic/icons/Ellipse.svg);
-    /* display: inline-block; */
-    /* width: 12px; */
-    /* height: 12px; */
-    /* content: ''; */
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
-    /* position: absolute; */
-    /* margin-top: 4px; */
-    /* margin-left: 4px; */
-}
-
-.delivery__chek_item:last-of-type .delivery__custom_check:checked {
-    background-image: url(../pic/icons/Ellipse1.svg);
-}
-
-
-
-.delivery__custom_check::before {
+.delivery__chek_item:last-of-type .delivery__custom_check::before {
     background-image: url(../pic/icons/Ellipse1.svg);
     display: inline-block;
     width: 12px;
@@ -259,6 +177,8 @@
     margin-top: 4px;
     margin-left: 4px;
 }
+
+
 
 .delivery__chek_item {
     text-decoration: none;
@@ -294,12 +214,15 @@
     width: 196px;
     height: 35px;
     margin-top: 15px;
+    box-sizing: border-box;
 
 }
 
 .amount__check_item {
     text-decoration: none;
     list-style-type: none;
+    padding-right: 66px;
+    /* box-sizing: border-box; */
     /* justify-content: center; */
     /* align-items: center; */
     
@@ -312,9 +235,13 @@
 }
 .amount__input:checked + .amount__item {
     background-color: #f3d0db;
+    justify-content: center;
+    align-items: center;
 }
 .amount__input:hover + .amount__item{
     background-color: #eddeeb;
+    justify-content: center;
+    align-items: center;
 }
 
 .amount__item {
@@ -332,6 +259,7 @@
     padding-top: 7px;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 
 }
 
@@ -344,7 +272,7 @@
     width: 95px;
     height: 40px;
     /* margin-bottom: 128px; */
-    margin-top: 79px;
+    margin-top: 76px;
     font-size: 16px;
     line-height: 22px; 
     font-weight: 700; 
@@ -354,8 +282,13 @@
     font-family: 'Open Sans';
     text-transform: uppercase;
     border: none;
-    margin-left: 60px;
+    /* margin-left: 60px; */
+    cursor: pointer;
 
+}
+
+.button_apply:active {
+    background: #6a6969;
 }
 
 

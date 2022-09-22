@@ -1,126 +1,12 @@
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-}
-
-.header {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 90px;
-}
-
-.header__wraper {
-display: flex;
-}
-
-.nav {
-   padding-left: 60px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.nav__list {
-    display: flex;
-    padding-left: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav__list_item {
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 20px;
-    font-size: 14px;
-    line-height: 19px;
-    font-family: 'Open Sans';
-}
-
-.nav__list_link {
-    text-decoration: none;
-    list-style-type: none;
-    color: #1E0606;
-    font-family: 'Open Sans';
-}
-
-.button_search {
-    padding-left: 678px;
-    padding-right: 23px;
-}
-
-.contact__us {
-    font-size: 14px;
-    line-height: 19px;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Open Sans';
-    /* font-style: normal; */
-    font-weight: 700;
-    color: #1E0606;
-
-}
-
-
-.category_name {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 49px;
-    text-transform: uppercase;
-    color: #1E0606;
-}
-
-
-.breadcrumb__list {
-    display: flex;
-    text-decoration: none;
-    padding-bottom: 50px;
-    padding-top: 15px;
-}
-
-.breadcrumb__list_item {
-    text-decoration: none;
-    list-style-type: none;
-    padding-right: 20px;
-}
-
-.breadcrumb__link_home {
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Crimson Text';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #1E0606;
-}
-
-.breadcrumb_vector{
-    width: 8px;
-    height: 12px;
-    padding-top: 7px;
-    /* background: #1E0606; */
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
-}
-
-.breadcrumb__link_catalog {
-    font-family: 'Crimson Text';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;  
-    color: #1E0606;
-    opacity: 0.5;
-    text-decoration: none;
-    list-style-type: none;
-}
 
 .menu__list_catalog {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -133,7 +19,6 @@ display: flex;
 .category__catalog {
     background: #D5D4E1;
     background-clip: content-box;
-    /* background-position: center; */
 }
 
 
@@ -179,7 +64,6 @@ display: flex;
 }
 
 .product {
-    /* margin-top: 55px; */
     padding-top: 55px;
     margin-left: 210px;
 }

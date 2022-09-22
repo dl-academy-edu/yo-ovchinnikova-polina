@@ -18,24 +18,22 @@
 }
 
 .filter__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
-    /* margin-left: 55px; */
 }
 
 .filter__menu {
     margin-bottom: 60px;
-    /* display: flex; */
 }
 
 .cost {
     margin-top: 42px;
-    margin-left: -25px;
-    /* margin-right: 108px; */
     padding-right: 108px;
-    /* padding-top: 42px; */
     border: none;
-    /* flex-wrap: wrap; */
 }
 
 .img__cost {
@@ -49,15 +47,6 @@
     margin-top: 15px;
     /* margin-right: 110px; */
     
-}
-
-.input__cost {
-    /* background: #000000; */
-    /* opacity: 0.5; */
-    /* width: 188px; */
-    /* height: 4px; */
-    /* margin-top: 25px; */
-    /* position: absolute; */
 }
 
 
@@ -201,7 +190,11 @@
     text-decoration: none;
     list-style-type: none;
     padding-bottom: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -225,12 +218,17 @@
 
 
 .amount__check_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 196px;
     height: 35px;
     margin-top: 15px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
 }
@@ -238,11 +236,7 @@
 .amount__check_item {
     text-decoration: none;
     list-style-type: none;
-    padding-right: 66px;
-    /* box-sizing: border-box; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    
+    padding-right: 66px;   
 }
 
 .amount__input {
@@ -252,12 +246,20 @@
 }
 .amount__input:checked + .amount__item {
     background-color: #f3d0db;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .amount__input:hover + .amount__item{
     background-color: #eddeeb;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -274,8 +276,13 @@
     color: #1E0606;
     padding-left: 18px;
     padding-top: 7px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
 }
@@ -283,12 +290,15 @@
 
 
 .button_apply {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 9px 22px;
     width: 95px;
     height: 40px;
-    /* margin-bottom: 128px; */
     margin-top: 76px;
     font-size: 16px;
     line-height: 22px; 
@@ -309,25 +319,20 @@
 }
 
 
-
-.produce {
-    /* padding-top: 60px; */
-}
-
 .produce__menu_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .produce__menu_item {
-    /* padding-right: 20px; */
     text-decoration: none;
     list-style-type: none;
-    /* position: relative; */
 }
 
 .img_produce {
-    /* position: absolute; */
     padding-bottom: 30px;
 }
 
@@ -354,63 +359,3 @@
     padding-bottom: 25px;
 }
 
-.pagination__nav {
-    display: flex;
-    padding-top: 53px;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-.pagination__list {
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 457px;
-    align-items: center;
-    justify-content: center;
-}
-
-.pagination__list_item {
-    text-decoration: none;
-    list-style-type: none;
-    padding-right: 67px;
-}
-
-.page_number_one {
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #C29974;
-}
-
-.page_number {
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #1E0606;
-}
-
-.vector__pag_left {
-    border: none;
-    background: none;
-    width: 13px;
-    height: 26px;
-}
-
-.vector__pag_right {
-    border: none;
-    background: none;
-    width: 13px;
-    height: 26px;
-    padding-left: 390px;
-}

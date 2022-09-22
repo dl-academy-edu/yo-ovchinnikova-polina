@@ -7,10 +7,11 @@ popupBtn.addEventListener('click', function() {
 })
 
 popupBtn.addEventListener('click', function() {
-    popup.classList.add('popup-open')
+    popup.classList.add('open')
     
 })
 
 popupClose.addEventListener('click', function() {
-    popup.classList.remove('popup-open')
+    popup.classList.remove('open')
 })
+

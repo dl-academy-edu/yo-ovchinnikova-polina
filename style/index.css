@@ -251,11 +251,16 @@ display: flex;
     /* width: 280px; */
     /* height: 270px; */
     position: relative;
-
+    /* background: #DBE4DB; */
+    /* position: absolute; */
+    background: #D5D4E1;
+    background-clip: content-box;
 }
+
 
 .img_kids {
     /* padding-right: 25px; */
+    /* background: #DBE4DB; */
 }
 
 .link_kids {
@@ -279,6 +284,7 @@ display: flex;
 }
 
 .img_holiday {
+    /* background: #EADDD3; */
     /* padding-right: 25px; */
     /* position: absolute; */
     /* top: 0px; */
@@ -887,12 +893,17 @@ background: #434343;
 
 .popup {
     display: none;
-    /* position: absolute; */
-    /* width: 1400px; */
-    /* height: 3007px; */
-    /* left: 0px; */
-    /* top: 0px; */
-    /* background: rgba(125, 151, 218, 0.8); */
+}
+
+.popup::before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1400px;
+    height: 768px;
+    background: rgba(125, 151, 218, 0.8)
 }
 
 
@@ -905,12 +916,10 @@ background: #434343;
     background: #E5EAF8;
     top: 50px;
     left: 360px;
-    
 }
 
-.popup__content {
+.open {
     display: block;
-    /* position: relative; */
 }
 
 .popup__close {

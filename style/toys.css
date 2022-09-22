@@ -19,6 +19,8 @@
 
 .filter__form {
     display: flex;
+    justify-content: space-between;
+    /* margin-left: 55px; */
 }
 
 .filter__menu {
@@ -28,19 +30,34 @@
 
 .cost {
     margin-top: 42px;
+    margin-left: -25px;
+    /* margin-right: 108px; */
     padding-right: 108px;
     /* padding-top: 42px; */
     border: none;
     /* flex-wrap: wrap; */
 }
 
-.input__cost {
-    background: #000000;
-    opacity: 0.5;
-    width: 188px;
-    height: 4px;
-    margin-top: 25px;
+.img__cost {
     position: absolute;
+    width: 207px;
+    height: 52px;
+    /* padding-right: 100px; */
+    /* width: 188px; */
+    /* height: 4px; */
+    /* background: rgba(125, 151, 218, 0.2); */
+    margin-top: 15px;
+    /* margin-right: 110px; */
+    
+}
+
+.input__cost {
+    /* background: #000000; */
+    /* opacity: 0.5; */
+    /* width: 188px; */
+    /* height: 4px; */
+    /* margin-top: 25px; */
+    /* position: absolute; */
 }
 
 
@@ -56,7 +73,7 @@
 
 .color__filter {
     border: none;
-    padding-left: 108px;
+    /* margin-left: 118px; */
     margin-top: 42px;
 }
 
@@ -141,7 +158,7 @@
 
 .delivery__filter {
     border: none;
-    margin-left: 130px;
+    /* margin-left: 50px; */
     margin-top: 42px;
     /* margin-right: 69px; */
     padding-top: 15px;
@@ -200,9 +217,9 @@
 }
 
 .amount__filter {
-    margin-left: 108px;
+    /* margin-left: 50px; */
     margin-top: 42px;
-    margin-right: 108px;
+    /* margin-right: 108px; */
     border: none;
 }
 
@@ -282,7 +299,7 @@
     font-family: 'Open Sans';
     text-transform: uppercase;
     border: none;
-    /* margin-left: 60px; */
+    margin-left: -60px;
     cursor: pointer;
 
 }

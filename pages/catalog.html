@@ -4,151 +4,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/catalog.css">
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@100;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <title>Catalog</title>
 </head>
 <body>
-    <header class="header">
-        <a href="../index.html">
-          <img src="../pic/icons/DLK.svg" alt="DLK">
-        </a>
-          <nav>
-              <ul>
-                  <li>
-                      <a href="../pages/blog.html">Blog</a>
-                  </li>
-                  <li>
-                      <a href="../pages/catalog.html">Catalog</a>
-                  </li>
-                  <li>
-                      <a href="#">About Us</a>
-                  </li>
-              </ul>
-          </nav>
-            <a href="../pages/contact.html" class="button"> 
-              <img src="../pic/icons/lupa.svg" alt="logo"> 
-            </a>
-            <a href="#">Contact  Us</a>
-      </header>
-      <section>
-        <h1>Category Products</h1>
-        <ul class="breadcrumb">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <img src="../pic/icons/Vectorr.svg" alt="vector">
-            </li>
-            <li>
-                <a href="#">Catalog</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <img src="../pic/images/imagesweater.png" alt="image">
-                <a href="#">APPAREL KIDS</a>
-            </li>
-            <li>
-                <img src="../pic/images/imagesock.png" alt="image">
-                <a href="#">HOLIDAY SHOP</a>
-            </li>
-            <li>
-                <img src="../pic/images/imagedeer.png" alt="image">
-                <a href="../pages/toys.html">TOYS</a>
-            </li>
-            <li>
-                <img src="../pic/images/imagemonkey.png" alt="image">
-                <a href="#">ACCESSORIES</a>
-            </li>
-            <li>
-                <img src="../pic/images/flamingo.png" alt="flamingo">
-                <a href="#">SALE</a>
-            </li>
-            <li>
-                <img src="../pic/images/dress.png" alt="dress">
-                <a href="#">APPAREL ADULTS</a>
-            </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Product Description</h2>
-        <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-        <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-        <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
-      </section>
-      <footer>
-        <ul>
-            <li>Navigation</li>
-            <li>
-                <a href="#">About Us</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Design Services</a>
-            </li>
-            <li>
-                <a href="#">Featured On</a>
-            </li>
-            <li>
-                <a href="#">2018 Holiday Catalog</a>
-            </li>
-            <li>
-                <a href="#">Shop By Designer</a>
-            </li>
-            <li>Company Rating</li>
-        <div class="rating-area">
-            <input type="radio" name="rating" id="star-5" value="5">
-            <input type="radio" name="rating" id="star-4" value="4">
-            <input type="radio" name="rating" id="star-3" value="3">
-            <input type="radio" name="rating" id="star-2" value="2">
-            <input type="radio" name="rating" id="star-1" value="1">
+    <header class="container">
+        <div class="header">
+            <div class="header__wraper">
+                <a class="link" href="../index.html">
+                    <img src="../pic/icons/DLK.svg" alt="DLK" class="logo">
+                </a>
+                 <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list_item">
+                            <a class="nav__list_link" href="../pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav__list_item">
+                            <a class="nav__list_link" href="../pages/catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav__list_item">
+                            <a class="nav__list_link" href="#">About Us</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="button_search"> 
+                        <img src="../pic/icons/lupa.svg" alt="lupa"> 
+                      </a>
+                      <a class="contact__us" href="../pages/contact.html">Contact  Us</a>
+                 </nav>
+           </div>            
         </div>
-        </ul>
-        <ul>
-            <li>Customer Information</li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-            <li>
-                <a href="#">Sale Exclusions</a>
-            </li>
-            <li>
-                <a href="#">Shipping & Returns</a>
-            </li>
-            <li>
-                <a href="#">Terms & Conditions</a>
-            </li>
-            <li>
-                <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="#">Search</a>
-            </li>
-            <li>Copyright © 2018 Dlk • Design Life Kids</li>
-        </ul>
-        <ul>
-            <li>Connect</li>
-            <li>
-                <form action="#">
-                    <input type="email" name="email" id="#">
-                    <button type="button">Join</button>
-                </form>
-            </li>
-            <li>
-                <img src="../pic/icons/f.svg" alt="facebook">
-            </li>
-            <li>
-                <img src="../pic/icons/Fill 11.svg" alt="twitter">
-            </li>
-            <li>
-                <img src="../pic/icons/Pinterest.svg" alt="pinterest">
-            </li>
-            <li>
-                <img src="../pic/icons/Instagram.svg" alt="instagram">
-            </li>
-            <li>Web Design — Direct Line Development</li>
-        </ul>
+    </header>
+    <main>
+    <section class="container">
+        <div class="catalog">
+            <h1 class="category_name">Category Products</h1>
+                <div class="breadcrumb">
+                    <ul class="breadcrumb__list">
+                        <li class="breadcrumb__list_item">
+                            <a class="breadcrumb__link_home" href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb__list_item">
+                            <img class="breadcrumb_vector" src="../pic/icons/VectorStroke.svg" alt="vector">
+                        </li>
+                        <li class="breadcrumb__list_item">
+                            <a class="breadcrumb__link_catalog" href="#">Catalog</a>
+                        </li>
+                    </ul>
+                </div>
+            <div class="category__menu_catalog">
+                    <ul class="menu__list_catalog">
+                        <li class="category__menu_item category__catalog">
+                            <img class="img_kids" width="280" height="270" src="../pic/images/Rectangle.jpg" alt="image">
+                            <a class="link_kids" href="#">APPAREL KIDS</a>
+                        </li>
+                        <li class="category__menu_item category__catalog">
+                            <img class="img_holiday" width="280" height="270" src="../pic/images/imagesock.jpg" alt="image">
+                            <a class="link_holiday" href="#">HOLIDAY SHOP</a>
+                        </li>
+                        <li class="category__menu_item category__catalog">
+                            <img class="img_toys" width="280" height="270" src="../pic/images/imagedeer.png" alt="image">
+                            <a class="link_toys" href="../pages/toys.html">TOYS</a>
+                        </li>
+                        <li class="category__menu_item category__catalog">
+                            <img class="img__accessories_catalog" width="280" height="270" src="../pic/images/imagemonkey.png" alt="image">
+                            <a class="link_accessories" href="#">ACCESSORIES</a>
+                        </li>
+                        <li class="category__menu_item category__catalog">
+                            <img class="img_sale" width="280" height="270" src="../pic/images/imageflamingo.jpg" alt="flamingo">
+                            <a class="link_sale" href="#">SALE</a>
+                        </li>
+                        <li class="category__menu_item category__catalog">
+                            <img class="img_adults" width="280" height="270" src="../pic/images/imagedress.jpg" alt="dress">
+                            <a class="link_adults" href="#">APPAREL ADULTS</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="product">
+                <h2 class="product__name">Product Description</h2>
+                <p class="product__paragraph_one">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
+                <p class="product__paragraph_two">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
+                <p class="product__paragraph_three">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="container__footer">
+        <section class="container">
+            <h2 class="name__section">main footer</h2>
+        <div class="footer__group">
+            <div class="group__nav">
+                <p class="group__nav_name">Navigation</p>
+                <ul class="group__nav_list">
+                    <li class="group__nav_item">
+                        <a class="nav__item_link" href="#">About Us</a>
+                    </li>
+                    <li class="group__nav_item">
+                        <a class="nav__item_link" href="#">Blog</a>
+                    </li>
+                    <li class="group__nav_item">
+                        <a class="nav__item_link" href="#">Design Services</a>
+                    </li>
+                    <li class="group__nav_item">
+                        <a class="nav__item_link" href="#">Featured On</a>
+                    </li>
+                    <li class="group__nav_item">
+                        <a class="nav__item_link" href="#">2018 Holiday Catalog</a>
+                    </li>
+                    <li class="group__nav_item">
+                        <a class="nav__item_link" href="#">Shop By Designer</a>
+                    </li>
+                </ul>
+                <div class="rating">
+                    <p class="rating__name">Company Rating</p> 
+                    <fieldset class="star__rating">
+                        <div class="rating__group">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-5" aria-label="отлично">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-4" aria-label="хорошо">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-3" aria-label="удовлетворительно">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-2" aria-label="плохо">
+                            <input class="star__rating_item" type="radio" name="rating" id="star-1" aria-label="ужасно">
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="customer__group">
+                <p class="customer">Customer Information</p>
+                <ul class="group__info">
+                        <li class="group__info_item">
+                            <a class="group__info_link" href="#">Contact Us</a>
+                        </li>
+                        <li class="group__info_item">
+                            <a class="group__info_link" href="#">Sale Exclusions</a>
+                         </li>
+                        <li class="group__info_item">
+                            <a class="group__info_link" href="#">Shipping & Returns</a>
+                        </li>
+                        <li class="group__info_item">
+                            <a class="group__info_link" href="#">Terms & Conditions</a>
+                        </li>
+                        <li class="group__info_item">
+                            <a class="group__info_link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="group__info_item">
+                            <a class="group__info_link" href="#">Search</a>
+                        </li>
+                </ul>
+                        <p class="paragraph_copyright">Copyright © 2018 Dlk • Design Life Kids</p> 
+            </div>
+            <div class="connect__group">
+                <p class="paragraph__connect">Connect</p>
+                    <div class="form">
+                        <form class="form" action="#">
+                            <input class="input_area" type="email" name="email" id="#" value="Email">
+                            <button class="button_join" type="submit">Join</button>
+                        </form>
+                    </div>
+                        <ul class="group__connect">
+                            <li class="group__connect_item">
+                                <img class="social_network" src="../pic/icons/Facebook.svg" alt="facebook">
+                            </li>
+                            <li class="group__connect_item">
+                                <img class="social_network" src="../pic/icons/Twitter.svg" alt="twitter">
+                            </li>
+                            <li class="group__connect_item">
+                                <img class="social_network" src="../pic/icons/Pinterest(1).svg" alt="pinterest">
+                            </li>
+                            <li class="group__connect_item">
+                                <img class="social_network" src="../pic/icons/Instagram(1).svg" alt="instagram">
+                            </li>
+                        </ul>
+                <p class="paragraph_dl">Web Design — Direct Line Development</p>
+            </div>
+        </div>
+        </section>
     </footer>
+    </main>
 </body>
 </html>
